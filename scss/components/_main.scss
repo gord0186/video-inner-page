@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+}
+
+
+
+.rg-icon{
+	
+	li{
+		float: left;
+		padding: .25em;
+		text-decoration: none;
+	
+		font-size: 40px;
+	}
+
+}
+
+.rg-video-wrapper{
+	iframe{
+		width: 100%;
+	}
+}
+
+.rg-persons-name{
+
+		text-transform: uppercase;
+		padding: .5em 1em ;
+}	
+
+.rg-float{
+  float:left;
+}
+
+.rg-profil{
+
+	padding: 2em;
+
+	.rg-profil-img{
+		padding-top:2em;
+	}
+
+	.rg-profil-info{
+		padding-top: 4em;
+
+		.content{
+			margin: 0 2em;
+		}
+	}
+	.skill{
+		border-bottom: 1px solid #000; 
+	}
+	
+}
+
+.rg-social-icons  {
+	
+	text-decoration: none;
+
+
+		li{
+			font-size: 50px;
+			margin: .5em;
+
+			&:before{				
+				text-decoration: none;
+			}
+		}
+	}
+
+
+.rg-btn{
+	color:#fff;
+	padding: 10px;
+
+
+	li{
+		background-color: #222;
+		height: 2em;
+		width: 10em;
+		text-align: center;
+		padding: 1em;
+
+		text-transform: uppercase;
+
+
+		&:hover{
+			background-color: grey;
+		}
+	}
+
+	&:hover{
+		color:#fff;
+	}
+
+}
